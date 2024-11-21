@@ -1,0 +1,25 @@
+.footer-container {
+    background-color: #540476; /* Footer background color */
+    color: white; /* Footer text color */
+    padding: 20px 0; /* Padding around the footer */
+    text-align: center; /* Center align text */
+    position:-ms-page;
+    bottom: 0;
+    width: 100%; 
+    height:fit-content;
+  }
+  
+  .footer-text {
+    color: white; /* Footer text color */
+    margin: 5px 0; /* Spacing between footer text elements */
+  }
+  
+  .footer-text a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-text a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,83 @@
+/* Main Page Layout */
+.facultyPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+/* Fullscreen Top Section */
+.fullscreenSection {
+  display: flex;
+  width: 100%;
+  height: 100vh; /* Fullscreen height */
+}
+
+.leftSection, .rightSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.leftSection {
+  background-color: #f5f5f5;
+}
+
+.rightSection {
+  background-color: #e0f7fa;
+}
+
+/* Headings and Text */
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.facultyName {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.animatedText {
+  font-size: 1.25rem;
+  text-align: center;
+  max-width: 400px;
+}
+
+/* Cards Section */
+.cardsSection {
+  margin: 30px 0;
+  width: 80%;
+}
+
+.cardGrid {
+  display: flex;
+  justify-content: center;
+}
+
+.infoCard {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  transition: transform 0.3s;
+  background-color: #fff;
+}
+
+.infoCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Explore More Button */
+.exploreBox {
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,71 @@
+/* Container Styles */
+#branch-container {
+    background-color: #fffefe;
+    color: #000000;
+    position: relative;
+    
+  }
+  
+  /* Card Styles */
+  #branch-card {
+    width: 60%;
+    background: linear-gradient(135deg, #1e1e1e, #292929);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #branch-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 255, 255, 0.5);
+  }
+  
+  /* Title and HOD Styles */
+  #branch-title {
+    font-size: 2rem;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+  }
+  
+  #branch-hod {
+    font-size: 1.2rem;
+    color: #00ccff;
+  }
+  
+  /* Staff and Students Styles */
+  #branch-staff,
+  #branch-students {
+    font-size: 1rem;
+    color: #a0a0a0;
+  }
+  
+  /* Animation Box */
+  #animation-container {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, #00ffcc, #121212);
+    border-radius: 50%;
+    box-shadow: 0 0 15px #00ffcc, 0 0 30px #00ffcc, 0 0 45px #00ffcc;
+    animation: pulse 2s infinite;
+  }
+  
+  /* Keyframes for Pulse Animation */
+  @keyframes pulse {
+    0% {
+      transform: translateX(-50%) scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(-50%) scale(1.2);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateX(-50%) scale(1);
+      opacity: 1;
+    }
+  }  

@@ -1,0 +1,101 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us-container {
+  width: 900px;
+  border-radius: 12px;
+  margin-top: 70px;
+  /* background-color: #f5f5f5; */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-us-title {
+  margin-bottom: 20px;
+}
+
+.contact-us-description {
+  margin-bottom: 30px;
+}
+
+.contact-us-form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-textfield {
+  background-color: white;
+}
+
+/* Add 20px gap before the submit button */
+.contact-us-form button {
+  margin-top: 20px;
+}
+
+.social-media-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.glass-btn {
+  width: 100px;
+  height: 100px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.blue-btn {
+  box-shadow: 0px 20px 20px -17px rgba(0, 111, 255, 0.53);
+}
+
+.blue-btn:hover {
+  box-shadow: 0px 20px 35px -16px rgba(0, 111, 255, 0.65);
+  transform: translateY(-5px);
+}
+
+.red-btn {
+  box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+}
+
+.red-btn:hover {
+  box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);
+  transform: translateY(-5px);
+}
+
+.amber-btn {
+  box-shadow: 0px 20px 20px -17px rgba(248, 14, 201, 0.53);
+}
+
+.amber-btn:hover {
+  box-shadow: 0px 20px 35px -16px rgba(155, 16, 242, 0.6);
+  transform: translateY(-5px);
+}
+
+.social-media-buttons {
+  font-size: 6rem; /* Increased from 3rem */
+}
+
+.facebook-icon {
+  color: #006fff;
+}
+
+.youtube-icon {
+  color: #ff1027;
+}
+
+.instagram-icon {
+  color: violet;
+}

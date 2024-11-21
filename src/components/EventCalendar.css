@@ -1,0 +1,30 @@
+.event-calendar {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.calendar-container {
+    margin-bottom: 20px;
+}
+
+.event-form input {
+    padding: 8px;
+    margin: 10px;
+    width: 80%;
+}
+
+.event-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+button {
+    margin: 5px;
+}

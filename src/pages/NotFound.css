@@ -1,0 +1,129 @@
+  
+  /* Container for NotFound Component */
+  #notFoundContainer {
+    color: #111;
+    height: 700px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    margin-top: 90px; /* 90px from the top */
+  }
+  
+  /* Unique Styling for Text Elements */
+  #notFoundTitle {
+    font-size: 4rem;
+    color: #ff2424;
+    margin-bottom: 10px; /* Spacing below 404 */
+  }
+  
+  #notFoundSubtitle {
+    font-size: 2rem;
+    color: #93ff2d;
+    margin-bottom: 20px; /* Spacing below "Page Not Found" */
+  }
+  
+  /* Styling for Go Back Button */
+  #goBackButton {
+    margin-bottom: 30px;
+    font-size: 1rem;
+    background-color: #24ecff;
+    color: #fff;
+    text-transform: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #goBackButton:hover {
+    background-color: #1fb9d8;
+  }
+  
+  /* Animation Container */
+  .container1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px; /* 30px to 50px gap below text */
+  }
+  
+  /* Animation Ring Styles */
+  .ring {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 4px solid transparent;
+    border-top: 4px solid #24ecff55;
+    border-radius: 50%;
+    margin: -30px;
+    filter: drop-shadow(0 0 10px #24ecff) drop-shadow(0 0 30px #24ecff)
+      drop-shadow(0 0 50px #24ecff);
+    animation: animate 4s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .ring::before {
+    content: "\f135";
+    position: absolute;
+    top: 10px;
+    right: -4px;
+    rotate: 90deg;
+    font-family: FontAwesome;
+    color: #24ecff;
+    font-size: 2em;
+  }
+  
+  /* Ring 2 */
+  #ring2 {
+    border-left: 4px solid #93ff2d;
+    filter: drop-shadow(0 0 10px #93ff2d) drop-shadow(0 0 30px #93ff2d)
+      drop-shadow(0 0 50px #93ff2d);
+    animation: animate2 4s linear infinite;
+    animation-delay: -1s;
+  }
+  
+  #ring2::before {
+    content: "\f072";
+    bottom: -6px;
+    left: 12px;
+    rotate: 45deg;
+    color: #93ff2d;
+  }
+  
+  @keyframes animate2 {
+    0% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  /* Ring 3 */
+  #ring3 {
+    position: absolute;
+    top: -66.66px;
+    border-left: 4px solid #ff1d6c55;
+    filter: drop-shadow(0 0 10px #ff1d6c) drop-shadow(0 0 30px #ff1d6c)
+      drop-shadow(0 0 50px #ff1d6c);
+    animation: animate2 4s linear infinite;
+    animation-delay: -3s;
+  }
+  
+  #ring3::before {
+    content: "\e518";
+    rotate: 135deg;
+    bottom: -6px;
+    left: 12px;
+    color: #ff1d6c;
+  }
+  

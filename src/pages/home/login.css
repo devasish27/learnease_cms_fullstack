@@ -1,0 +1,113 @@
+.login-page{
+  background-color: #1de9b6;
+  background-image: url('../assests2/new.jpg');
+  background-size: cover;
+}
+
+.login-container {
+  
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.login-grid {
+  height: 100vh;
+}
+
+.login-left-column, .login-right-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.login-left-box, .login-right-box {
+  width: 80%;
+  height: 65vh;
+  border-radius: 8px;
+  padding: 4rem;
+}
+
+.login-left-box {
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.login-icon {
+  color: #000000;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.login-heading {
+  margin-top: 1rem;
+}
+
+.login-description {
+  margin-top: 0.5rem;
+}
+
+.login-right-box {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.login-title {
+  color: #000000;
+}
+
+.login-textfield {
+  margin-top: 1rem;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.forgot-password {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.remember-me-checkbox {
+  color: #000000;
+}
+
+.remember-me-text {
+  color: #000000;
+  text-align: start;
+}
+
+.login-button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.login-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.social-buttons {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}

@@ -1,0 +1,135 @@
+#homepage1-root {
+    background-color: #1A2434;
+    color: #E0E8F0;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+/* Header section */
+.header-section {
+  margin-bottom: 20px;
+}
+
+.welcome-textt {
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
+               0 0 10px rgba(255, 215, 0, 0.8),
+               0 0 20px rgba(255, 215, 0, 0.8);
+  animation: text-glow 5.5s infinite alternate;
+}
+
+/* Keyframes for glowing text */
+@keyframes text-glow {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
+                 0 0 10px rgba(255, 215, 0, 0.6),
+                 0 0 15px rgba(255, 215, 0, 0.6);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1),
+                 0 0 20px rgba(255, 215, 0, 1),
+                 0 0 30px rgba(255, 215, 0, 1);
+  }
+}
+
+
+/* Card section */
+#card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+/* Card styling */
+.info-card {
+  width: 520px; /* Bigger card width */
+  max-width: 550px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin: 10px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.info-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 15px rgba(107, 115, 255, 0.6), 0 0 25px rgba(0, 13, 255, 0.8);
+  animation: card-glow 1.5s infinite alternate;
+}
+
+/* Keyframes for glow effect */
+@keyframes card-glow {
+  0% {
+    box-shadow: 0 0 15px rgba(107, 115, 255, 0.4), 0 0 25px rgba(0, 13, 255, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 25px rgba(107, 115, 255, 0.8), 0 0 40px rgba(0, 13, 255, 1);
+  }
+}
+
+
+/* Card text */
+.info-card-text {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Pyramid arrangement */
+#card-section > div:nth-of-type(1) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#card-section > div:nth-of-type(2),
+#card-section > div:nth-of-type(3) {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#card-section > div:nth-of-type(4),
+#card-section > div:nth-of-type(5),
+#card-section > div:nth-of-type(6) {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Calendar container */
+.event-calendar {
+  margin: 50px auto;
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Glow animation */
+.glow-box {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #6b73ff, #000dff);
+  border-radius: 12px;
+  animation: glow 1.5s infinite alternate;
+}
+
+.glow-box h3 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(107, 115, 255, 0.7), 0 0 20px rgba(0, 13, 255, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(107, 115, 255, 1), 0 0 40px rgba(0, 13, 255, 0.8);
+  }
+}

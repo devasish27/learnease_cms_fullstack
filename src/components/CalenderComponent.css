@@ -1,0 +1,20 @@
+.calendar-container {
+    background-color: #E0E8F0;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .highlight {
+    background-color: #3A9DF9;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .event-details {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1A2434;
+    color: #E0E8F0;
+    border-radius: 8px;
+  }
+  

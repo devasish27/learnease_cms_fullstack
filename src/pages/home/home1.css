@@ -1,0 +1,125 @@
+#home-container {
+  position: relative; /* Enables positioning for the pseudo-element */
+  padding-top: 20px;
+  color: #333;
+  margin-top: 70px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  height: 850px;
+}
+
+#home-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assests2/image1.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(60%); /* Reduces brightness of the image */
+  z-index: -1; /* Places it behind other content */
+}
+
+
+  #hero {
+    
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    margin-bottom: 300px;
+    
+  }
+  
+  
+  #welcome-title {
+    font-weight: bold;
+    align-items: flex-start; /* Aligns content to the top */
+    padding-top: 60px; /* Adds 60px space from the top */
+    color: #00bfff; /* Base neon pink */
+    animation: danceTop 1.5s ease-in-out infinite;
+    transform-origin: top;
+    text-shadow: 
+      0 0 5px #ff00ff,     /* Neon pink close glow */
+      0 0 10px #ff00ff,    /* Neon pink mid glow */
+      0 0 15px #ff00ff,    /* Neon pink far glow */
+      0 0 20px #9400d3,    /* Violet glow */
+      0 0 30px #9400d3,    /* Violet mid glow */
+      0 0 40px #00bfff,    /* Light blue glow */
+      0 0 50px #00bfff;    /* Light blue far glow */
+  }
+  
+  @keyframes danceTop {
+    16% { transform: skew(-14deg); }
+    33% { transform: skew(12deg); }
+    49% { transform: skew(-8deg); }
+    66% { transform: skew(6deg); }
+    83% { transform: skew(-4deg); }
+    100% { transform: skew(0deg); }
+  }
+  
+  #welcome-content {
+    font-size: 18px;
+    text-align: center; /* Centers the text horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #00bfff; 
+    width: 60%;
+    margin-left: 350px;
+    margin-top: 100px; /* Adjust the top margin to position content properly */
+    line-height: 1.5; /* Adjust line height for better readability */
+    text-shadow: 
+    0 0 15px #ff00ff,
+    0 0 15px #ff00ff,
+    0 0 50px #00bfff,
+
+  }
+  
+  
+
+  
+  #details-section {
+    padding-top: 250px;
+    text-align: center;
+   margin: auto;
+   
+  }
+  
+  #sub-detail{
+    padding-top: 80px;
+
+  }
+  .details-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .feature-sections {
+    margin-top: 40px;
+  }
+  
+  .feature-details {
+    padding: 20px;
+  }
+  
+  .feature-title {
+    color: #1976d2;
+  }
+  
+  .feature-description {
+    color: #555;
+  }
+  
+  .detail-image {
+    width: 65%;
+    height: auto;
+    border-radius: 10px;
+  }

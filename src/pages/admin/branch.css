@@ -1,0 +1,33 @@
+.branch-card {
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f0f0f0, #d1e9ff);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.branch-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 120, 215, 0.4), 0 4px 15px rgba(0, 120, 215, 0.3);
+}
+
+.branch-name {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.add-branch-button {
+  margin-top: 20px;
+}
+
+.branch-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.branch-input {
+  margin-bottom: 10px;
+}

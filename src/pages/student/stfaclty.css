@@ -1,0 +1,38 @@
+#faculty-container {
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* DataGrid styling */
+  .MuiDataGrid-root {
+    background-color: #ffffff; /* White background for DataGrid */
+    border: none; /* Remove default border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 12px;
+    padding: 10px;
+  }
+  
+  /* DataGrid header style */
+  .MuiDataGrid-columnHeaders {
+    background-color: #e0f7fa; /* Light teal background */
+    color: #00796b; /* Teal text color */
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* DataGrid rows */
+  .MuiDataGrid-row {
+    &:hover {
+      background-color: #f1f8e9; /* Light green on hover */
+    }
+  }

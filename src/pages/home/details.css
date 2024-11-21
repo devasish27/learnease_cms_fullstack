@@ -1,0 +1,50 @@
+/* branch.css */
+
+/* General container styling */
+.developer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the grid items */
+  .developer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Adjust grid item width and layout */
+  .developer-grid-item {
+    flex: 0 0 calc(50% - 20px); /* Take 50% width minus margin */
+    margin-bottom: 20px;
+  }
+  
+  /* For the last grid item */
+  .developer-grid-item-full {
+    flex: 0 0 50%;
+  }
+  
+  /* Card styling */
+  .developer-card {
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Avatar styling */
+  .developer-avatar {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+  }
+  
+  /* Developer information styling */
+  .developer-info {
+    display: flex;
+    flex-direction: column;
+  }
+    

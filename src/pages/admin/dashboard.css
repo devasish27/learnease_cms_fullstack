@@ -1,0 +1,84 @@
+/* General Dashboard Container */
+#dashboard-container {
+  background-color: #121212;
+  color: white;
+  padding: 20px;
+}
+
+/* Neon Text Effect */
+.neon-text {
+  color: #00FF00;
+  text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.neon-text:hover {
+  text-shadow: 0 0 20px #00FF00, 0 0 40px #00FF00, 0 0 60px #00FF00;
+}
+
+/* Card Styles */
+#total-students-card,
+#total-faculty-card,
+#total-branches-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+#total-students-card .MuiTypography-h6,
+#total-faculty-card .MuiTypography-h6,
+#total-branches-card .MuiTypography-h6 {
+  color: #00FF00;
+}
+
+#total-students-card .MuiTypography-h4,
+#total-faculty-card .MuiTypography-h4,
+#total-branches-card .MuiTypography-h4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Pie and Line Charts */
+#pie-chart-container,
+#line-chart-container {
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#pie-chart-title,
+#line-chart-title {
+  color: #00FF00;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Progress Bars */
+#quiz-progress-container {
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#quiz-progress-container .MuiLinearProgress-root {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Branch-wise Students */
+#branch-wise-students {
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#branch-students-title {
+  color: #ff7043;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
